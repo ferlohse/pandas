@@ -1,11 +1,82 @@
-.pink{
-    background-color: #f7984a;
+body {
+    background-color: rgb(248, 164, 143);
 }
-.h1{
-    right: 20em;
 
+.imagenUno {
+    background-image: url(img/uno.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
-.imagenUno{
-    background-image: url("uno.jpg");
-   
+
+.imagenDos {
+    background-image: url(img/dos.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
+
+.imagenTres {
+    background-image: url(img/tres.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.cajaUno {
+    background-color: rgb(102, 209, 148);
+    width: 100%;
+    height: 400px;
+}
+
+.cuatroFotosPandas {
+    background-color: rgb(102, 209, 148);
+    width: 100%;
+    height: 400px;
+}
+
+.cajaBlanca {
+    border-style: solid;
+    border-width: 13px;
+    border-color: white;
+}
+
+h1 {
+    color: white;
+    text-align: right;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.subtitulo {
+    color: white;
+    text-align: right;
+}
+p {
+    color: white;
+    text-align: center;
+}
+.texto {
+    background-color: rgb(248, 164, 143);
+    text-align: center;
+    font-size: 12px;
+}
+.titulo {
+    color: white;
+    text-align: center;
+}
+.footer {
+    font-size: 11px;
+    text-align: right;
+    color: white;
+}
+
